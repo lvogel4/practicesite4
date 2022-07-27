@@ -168,49 +168,6 @@ color: white;
 .clearfix {
 overflow: auto;
 
-height: 100vw;
-width: 100vw;
-background:
-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.15) 30%, rgba(255,255,255,.3) 32%, rgba(255,255,255,0) 33%) 0 0,
-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.3) 13%, rgba(255,255,255,0) 14%) 0 0,
-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 17%, rgba(255,255,255,.43) 19%, rgba(255,255,255,0) 20%) 0 110px,
-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) -130px -170px,
-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) 130px 370px,
-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.2) 13%, rgba(255,255,255,0) 14%) 0 0,
-linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
-background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
-color: white;
-.clearfix {
-overflow: auto;
-
-}
-
-.cbp-af-footer {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	background: #f6f6f6;
-	z-index: 10000;
-	height: 230px;
-	.clearfix {
-	overflow: auto;
-	-webkit-transition: height 0.3s;
-	-moz-transition: height 0.3s;
-	transition: height 0.3s;
-}
-
-.cbp-af-footer.cbp-af-inner {
-	width: 90%;
-	max-width: 69em;
-	margin: 0 auto;
-	padding: 0 1.875em;
-}
-
-/* Transitions and class for reduced height */
-
-.cbp-af-footer.cbp-af-header-shrink {
-	height: 90px;
 
 }
 
