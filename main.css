@@ -13,6 +13,8 @@ radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,25
 linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
 background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
 background-color: #840b2a;
+.clearfix {
+overflow: auto;
 
 }
 
@@ -24,7 +26,8 @@ background-color: #840b2a;
 	background: #f6f6f6;
 	z-index: 10000;
 	height: 230px;
-	overflow: hidden;
+	.clearfix {
+	overflow: auto;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
 	transition: height 0.3s;
@@ -51,7 +54,7 @@ background-color: #840b2a;
 
 .cbp-af-header h1 {
 	text-transform: uppercase;
-	color: #333;
+	color: #fff;
 	letter-spacing: 4px;
 	font-size: 4em;
 	margin: 0;
