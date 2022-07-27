@@ -14,7 +14,7 @@ radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,25
 radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.2) 13%, rgba(255,255,255,0) 14%) 0 0,
 linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
 background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
-background-color: #840b2a;
+color: white;
 .clearfix {
 overflow: auto;
 
@@ -164,6 +164,7 @@ radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,25
 linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
 background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
 background-color: #840b2a;
+color: white;
 .clearfix {
 overflow: auto;
 
@@ -188,7 +189,6 @@ float: right;
 }
 
 #article {
-
 width: 100px;
 margin-top: 100px;
 margin-bottom: 100px;
@@ -344,8 +344,13 @@ opacity: 1;
 
 .text {
 background-color: #04AA6D;
-color: white;
+color: black;
 font-size: 16px;
 padding: 16px 32px;
 
 }
+	
+h1 { 
+color: white
+}
+
