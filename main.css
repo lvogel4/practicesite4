@@ -199,9 +199,6 @@ overflow: value;
 article img {
 float: right;
 width: 50%;
-
-}
-
 .cover {
 object-fit: cover;
 
@@ -267,17 +264,16 @@ width: 200px;
 
 section {
 margin-left: 200px;
+.clearfix {
+overflow: auto;
 
 }
 
 image {
 
 float: right;
-
-}
-
 .clearfix {
- overflow: auto;
+overflow: auto;
 
 }
 
@@ -299,6 +295,8 @@ width: 25%;
 display: inline-block;
 vertical-align: top;
 width: 75%;
+.clearfix {
+overflow: auto;
 
 }
 
@@ -307,6 +305,8 @@ display: inline-block;
 width: 200px;
 height: 100px;
 margin: 1em;
+.clearfix {
+overflow: auto;
 
 }
 
@@ -318,6 +318,8 @@ box-shadow: 10px 10px 5px lightblue;
 .container {
 position: relative;
 width: 50%;
+.clearfix {
+overflow: auto;
 
 }
 
@@ -328,6 +330,11 @@ width: 100%;
 height: auto; 
 transition: .5 ease;
 backface-visibility: hidden;
+.cover {
+object-fit: cover;
+.clearfix {
+overflow: auto;
+	
 
 }
 
