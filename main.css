@@ -198,17 +198,6 @@ overflow: value;
 
 }
 
-
-}
-
-article img {
-float: right;
-width: 50%;
-.cover {
-object-fit: cover;
-
-}
-
 nav {
 float: left;
 width: 200px;
@@ -318,13 +307,15 @@ overflow: auto;
 .image {
 opacity: 1;
 display: block;
-width: 100%;
+width: 50%;
 height: auto; 
 transition: .5 ease;
 backface-visibility: hidden;
 .cover {
 object-fit: cover;
 float: right;
+width: 100px;
+height: 100px;
 .clearfix {
 overflow: auto;
 
