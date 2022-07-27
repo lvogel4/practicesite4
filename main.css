@@ -274,23 +274,10 @@ overflow: auto;
 
 }
 
-image {
-
-float: right;
-.clearfix {
-overflow: auto;
-
-}
-
 nav {
 float: left;
 width: 25%;
-}
-section {
 margin-left: 25%;
-}
-
-nav {
 display: inline-block;
 vertical-align: top;
 width: 25%;
@@ -337,11 +324,12 @@ transition: .5 ease;
 backface-visibility: hidden;
 .cover {
 object-fit: cover;
+float: right;
 .clearfix {
 overflow: auto;
-	
 
 }
+	
 
 .middle {
 transition: .5 ease
