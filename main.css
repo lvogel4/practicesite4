@@ -25,6 +25,8 @@ body {
 nav2 {
   float: left;
   width: 200px;
+  .clearfix {
+    overflow: auto;
 }
 section2 {
   margin-left: 200px;
