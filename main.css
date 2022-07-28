@@ -21,3 +21,27 @@ footer {
 body {
   margin-bottom: 120px;
 }
+
+nav2 {
+  float: left;
+  width: 200px;
+}
+section2 {
+  margin-left: 200px;
+}
+
+aside2 {
+  float: inline-start;
+  
+}
+
+article2 {
+  float: inline-start;
+  
+}
+
+image1 {
+  float: inline-start;
+  
+}
+
