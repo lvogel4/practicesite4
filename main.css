@@ -54,4 +54,15 @@ image1 {
 section3 {
   margin-left: 25%;
 }
+  
+  nav4 {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+.column {
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
+}
 
