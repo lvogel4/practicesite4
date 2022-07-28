@@ -46,4 +46,12 @@ image1 {
   float: inline-start;
   
 }
+  
+  nav3 {
+  float: left;
+  width: 25%;
+}
+section3 {
+  margin-left: 25%;
+}
 
